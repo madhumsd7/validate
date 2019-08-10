@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(219, 228, 243);
+}
+#f1{
+    margin:50px;
+    border:1px solid black;
+    height:450px;
+}
+#d1{
+    margin:20px;
+}
+#f2{
+    margin:50px;
+}

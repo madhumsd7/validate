@@ -1,0 +1,33 @@
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport"
+                  content="width=device-width, user-scalable=no, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>VALIDATE</title>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+    </head>
+    <body>
+    <form id="f2" >
+     
+    </form>
+    <form id="f1" onsubmit="return myFun()">
+    <div id="d1">
+     <p>First-Name: <input type="text" value="" required id="User_Name" autocomplete="off"> Middle-Name: <input type="text" id="User_Name1" value=""> Last-Name: <input type="text" id="User_Name" value=""></p>
+     <p>User-Id: <input type="text" required></p>
+     <p>e-mail: <input type="email">@geebanswara.ac.in</p>
+     <p>DOB: <input type="date"></p>
+     <p>mobile no: +91 <input type="text" id="Mobile_Num" autocomplete="off" required></p>
+
+     <p>password: <input type="password" id="password"> reenter-password: <input type="password" id="passwords"></p>
+     <p><b>* Password must contain one number,one uppercase,one lowercase,1 spl char</b></p>
+     <p id="demo"></p>
+     <input type="submit" value="submit"></input>
+   </div>
+    </form>
+    <script src="val.js"></script>
+    </body>
+    </html>
